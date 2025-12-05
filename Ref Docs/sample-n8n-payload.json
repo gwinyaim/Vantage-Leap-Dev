@@ -1,0 +1,522 @@
+{
+  "meta": {
+    "assessmentVersion": "2.0",
+    "submittedAt": "2024-12-04T15:32:47.123Z",
+    "source": "website",
+    "assessmentType": "standard",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+    "sessionId": "sess_abc123xyz",
+    "completionTimeSeconds": 847
+  },
+
+  "lead": {
+    "email": "sarah@growthmarketing.com",
+    "firstName": "Sarah",
+    "lastName": "Johnson",
+    "companyName": "Growth Marketing Co",
+    "phone": "555-123-4567",
+    "consultationRequested": true
+  },
+
+  "scoring": {
+    "overallScore": 62,
+    "readinessLevel": {
+      "level": "Developing",
+      "badge": "🟡",
+      "color": "yellow",
+      "tier": 3
+    },
+    "dimensions": {
+      "techInfrastructure": {
+        "score": 14.5,
+        "maxPoints": 20,
+        "normalized": 73,
+        "weight": "20%"
+      },
+      "processMaturity": {
+        "score": 10,
+        "maxPoints": 15,
+        "normalized": 67,
+        "weight": "15%"
+      },
+      "dataReadiness": {
+        "score": 8.5,
+        "maxPoints": 15,
+        "normalized": 57,
+        "weight": "15%"
+      },
+      "budgetResources": {
+        "score": 10,
+        "maxPoints": 15,
+        "normalized": 67,
+        "weight": "15%"
+      },
+      "aiKnowledge": {
+        "score": 11,
+        "maxPoints": 15,
+        "normalized": 73,
+        "weight": "15%"
+      },
+      "orgReadiness": {
+        "score": 6.5,
+        "maxPoints": 10,
+        "normalized": 65,
+        "weight": "10%"
+      },
+      "strategicAlignment": {
+        "score": 7,
+        "maxPoints": 10,
+        "normalized": 70,
+        "weight": "10%"
+      }
+    },
+    "validationFlags": [
+      {
+        "flag": "MANAGED_SERVICES_CANDIDATE",
+        "severity": "INFO",
+        "message": "Budget available but no IT support. Strong candidate for fully managed AI implementation services.",
+        "adjustment": {
+          "emphasizeService": "Fully Managed Implementation",
+          "recommendVendorSupport": true
+        }
+      }
+    ]
+  },
+
+  "businessProfile": {
+    "industry": "Professional Services",
+    "employeeCount": "6-15",
+    "yearsInBusiness": "3-5 years",
+    "annualRevenue": "$500K-$1M",
+    "businessModel": "We provide marketing consulting services to mid-sized B2B companies. Our core offerings include brand strategy, content marketing, and demand generation campaigns. We work primarily on retainer with 12-15 active clients at any given time.",
+    "businessGoals": "6 months: Expand client base by 20% and streamline client onboarding. 12 months: Launch a new productized service offering for smaller clients. 18 months: Grow team to 12 people and establish thought leadership in our niche.",
+    "primaryAIGoal": "Save time",
+    "implementationTimeline": "Within 3 months",
+    "involvementPreference": "Guided with support",
+    "successMetrics": ["Time saved", "Employee productivity"]
+  },
+
+  "painPointsAndOpportunities": {
+    "timeConsumingTasks": ["Customer inquiries", "Report generation", "Email management"],
+    "biggestChallenge": "Time management",
+    "taskRepetitiveness": 4,
+    "manualDataEntryLevel": 3,
+    "techChallenges": "1. Client reporting takes 8-10 hours per month per client - we manually pull data from multiple platforms and compile into presentations. 2. Initial lead response is slow - often 24+ hours because we're in meetings. 3. Keeping track of deliverables and deadlines across all clients is chaotic.",
+    "inefficientWorkflow": "Monthly client reporting: We pull data from Google Analytics, HubSpot, LinkedIn Ads, and Google Ads. A team member manually screenshots charts, exports CSVs, compiles everything into a PowerPoint, and writes commentary. This takes 2-3 hours per client, and we have 15 clients. That's 30-45 hours of work that feels automatable.",
+    "techFrustrations": "HubSpot doesn't integrate well with our project management tool (Monday.com), so we're constantly copying information between systems. Also, our proposal process is entirely manual - each one takes 3-4 hours to customize.",
+    "aiConcerns": ["Complexity", "Reliability"]
+  },
+
+  "currentState": {
+    "techAdoptionLevel": "Moderate (some cloud tools)",
+    "cloudUsage": "Yes - somewhat",
+    "softwareStack": ["CRM", "Accounting Software", "Project Management", "Marketing Automation"],
+    "dataStorage": "CRM system",
+    "teamTechComfort": 4,
+    "itSupport": "Tech-savvy employee handles it",
+    "monthlyTechBudget": "$500-$1,000",
+    "pastImplementationApproach": "Vendor-provided training",
+    "aiBudgetPlanning": "Yes, we've set aside approximately $10,000 for AI tools and implementation in 2025. Open to spending more if ROI is clear.",
+    "aiFamiliarity": "Use occasionally",
+    "aiToolsUsed": ["ChatGPT/Claude", "AI writing assistants"],
+    "ownerMotivation": 4,
+    "staffReceptiveness": 3,
+    "dataQuality": "Somewhat organized",
+    "sensitiveData": "Yes - standard PII",
+    "industryRegulations": "Minimal regulations",
+    "backupSystem": "Yes - automated cloud backup",
+    "complianceConcerns": null
+  },
+
+  "goals": {
+    "timeline": "Within 3 months",
+    "involvementLevel": "Guided with support",
+    "successMetrics": ["Time saved", "Employee productivity"],
+    "oneYearVision": "In one year, I want AI handling at least 50% of our client reporting work. Initial email inquiries should get instant responses. Our team should be able to generate proposal first drafts in minutes instead of hours. And ideally, we'd have some predictive insights about which clients might churn or which leads are most likely to convert.",
+    "additionalContext": "We're a small team but growing fast. Everyone wears multiple hats. I'm concerned about adding complexity but equally concerned about burning out my team with manual work. We've tried a few automations with Zapier but nothing sophisticated. Very open to learning but need hand-holding through the process."
+  },
+
+  "freeTextForAIAnalysis": [
+    {
+      "questionId": "BP05",
+      "question": "Please briefly describe your core business model and primary products/services.",
+      "response": "We provide marketing consulting services to mid-sized B2B companies. Our core offerings include brand strategy, content marketing, and demand generation campaigns. We work primarily on retainer with 12-15 active clients at any given time."
+    },
+    {
+      "questionId": "BP06",
+      "question": "Please briefly describe your business goals and objectives over the next 6, 12 & 18 months.",
+      "response": "6 months: Expand client base by 20% and streamline client onboarding. 12 months: Launch a new productized service offering for smaller clients. 18 months: Grow team to 12 people and establish thought leadership in our niche."
+    },
+    {
+      "questionId": "TI06",
+      "question": "Please describe any current technology frustrations or limitations causing bottlenecks.",
+      "response": "HubSpot doesn't integrate well with our project management tool (Monday.com), so we're constantly copying information between systems. Also, our proposal process is entirely manual - each one takes 3-4 hours to customize."
+    },
+    {
+      "questionId": "PP06",
+      "question": "What are your top 3 business challenges that you believe technology might help solve?",
+      "response": "1. Client reporting takes 8-10 hours per month per client - we manually pull data from multiple platforms and compile into presentations. 2. Initial lead response is slow - often 24+ hours because we're in meetings. 3. Keeping track of deliverables and deadlines across all clients is chaotic."
+    },
+    {
+      "questionId": "PP07",
+      "question": "Please describe a typical workflow or business process that feels inefficient.",
+      "response": "Monthly client reporting: We pull data from Google Analytics, HubSpot, LinkedIn Ads, and Google Ads. A team member manually screenshots charts, exports CSVs, compiles everything into a PowerPoint, and writes commentary. This takes 2-3 hours per client, and we have 15 clients. That's 30-45 hours of work that feels automatable."
+    },
+    {
+      "questionId": "BR04",
+      "question": "Are you actively budgeting for AI implementation initiatives over the next 12 months?",
+      "response": "Yes, we've set aside approximately $10,000 for AI tools and implementation in 2025. Open to spending more if ROI is clear."
+    },
+    {
+      "questionId": "GT04",
+      "question": "What does successful AI adoption look like for your business in 1 year?",
+      "response": "In one year, I want AI handling at least 50% of our client reporting work. Initial email inquiries should get instant responses. Our team should be able to generate proposal first drafts in minutes instead of hours. And ideally, we'd have some predictive insights about which clients might churn or which leads are most likely to convert."
+    },
+    {
+      "questionId": "GT05",
+      "question": "Is there anything else about your business situation we should know?",
+      "response": "We're a small team but growing fast. Everyone wears multiple hats. I'm concerned about adding complexity but equally concerned about burning out my team with manual work. We've tried a few automations with Zapier but nothing sophisticated. Very open to learning but need hand-holding through the process."
+    }
+  ],
+
+  "completeQuestionsAndAnswers": [
+    {
+      "id": "BP01",
+      "section": "Business Profile",
+      "question": "What industry are you in?",
+      "questionType": "dropdown",
+      "answer": "Professional Services",
+      "availableOptions": ["Retail", "Healthcare", "Finance", "Manufacturing", "Professional Services", "Food & Hospitality", "Construction", "Technology", "Other"]
+    },
+    {
+      "id": "BP02",
+      "section": "Business Profile",
+      "question": "How many employees do you have?",
+      "questionType": "single_select",
+      "answer": "6-15",
+      "availableOptions": ["1-5", "6-15", "16-50", "51-100", "100+"]
+    },
+    {
+      "id": "BP03",
+      "section": "Business Profile",
+      "question": "How long have you been running your business?",
+      "questionType": "single_select",
+      "answer": "3-5 years",
+      "availableOptions": ["Less than 1 year", "1-3 years", "3-5 years", "5-10 years", "10+ years"]
+    },
+    {
+      "id": "BP04",
+      "section": "Business Profile",
+      "question": "What is your approximate annual revenue?",
+      "questionType": "single_select",
+      "answer": "$500K-$1M",
+      "availableOptions": ["Under $100K", "$100K-$500K", "$500K-$1M", "$1M-$5M", "$5M+", "Don't know/Prefer not to say"]
+    },
+    {
+      "id": "BP05",
+      "section": "Business Profile",
+      "question": "Please briefly describe your core business model and primary products/services.",
+      "questionType": "free_text",
+      "answer": "We provide marketing consulting services to mid-sized B2B companies. Our core offerings include brand strategy, content marketing, and demand generation campaigns. We work primarily on retainer with 12-15 active clients at any given time."
+    },
+    {
+      "id": "BP06",
+      "section": "Business Profile",
+      "question": "Please briefly describe your business goals and objectives over the next 6, 12 & 18 months.",
+      "questionType": "free_text",
+      "answer": "6 months: Expand client base by 20% and streamline client onboarding. 12 months: Launch a new productized service offering for smaller clients. 18 months: Grow team to 12 people and establish thought leadership in our niche."
+    },
+    {
+      "id": "TI01",
+      "section": "Technology Infrastructure",
+      "question": "How would you rate your current technology adoption?",
+      "questionType": "single_select",
+      "answer": "Moderate (some cloud tools)",
+      "availableOptions": ["Very Basic (paper/spreadsheets)", "Moderate (some cloud tools)", "Advanced (integrated systems)", "Cutting-edge", "Don't know"]
+    },
+    {
+      "id": "TI02",
+      "section": "Technology Infrastructure",
+      "question": "Do you currently use any cloud-based software?",
+      "questionType": "single_select",
+      "answer": "Yes - somewhat",
+      "availableOptions": ["Yes - extensively", "Yes - somewhat", "No - but interested", "No - not interested"]
+    },
+    {
+      "id": "TI03",
+      "section": "Technology Infrastructure",
+      "question": "What business software do you currently use?",
+      "questionType": "multi_select",
+      "answer": ["CRM", "Accounting Software", "Project Management", "Marketing Automation"],
+      "availableOptions": ["CRM", "Accounting Software", "Project Management", "E-commerce Platform", "Marketing Automation", "Inventory Management", "HR/Payroll", "Other", "None"]
+    },
+    {
+      "id": "TI04",
+      "section": "Technology Infrastructure",
+      "question": "How is your business & customer data currently stored?",
+      "questionType": "single_select",
+      "answer": "CRM system",
+      "availableOptions": ["Paper records", "Spreadsheets", "Basic database", "CRM system", "Multiple integrated systems", "Don't know"]
+    },
+    {
+      "id": "TI05",
+      "section": "Technology Infrastructure",
+      "question": "How comfortable is your team with learning new software?",
+      "questionType": "scale",
+      "answer": 4,
+      "scaleLabels": { "1": "Very resistant", "5": "Eager adopters" }
+    },
+    {
+      "id": "TI06",
+      "section": "Technology Infrastructure",
+      "question": "Please describe any current technology frustrations or limitations causing bottlenecks.",
+      "questionType": "free_text",
+      "answer": "HubSpot doesn't integrate well with our project management tool (Monday.com), so we're constantly copying information between systems. Also, our proposal process is entirely manual - each one takes 3-4 hours to customize."
+    },
+    {
+      "id": "PP01",
+      "section": "Business Processes",
+      "question": "Which types of tasks demand the most of your staff's time? (Select top 3)",
+      "questionType": "multi_select",
+      "answer": ["Customer inquiries", "Report generation", "Email management"],
+      "availableOptions": ["Sales", "Customer inquiries", "Data entry", "Scheduling", "Invoicing/Billing", "Inventory tracking", "Report generation", "Email management", "Social media", "Lead follow-up", "Content creation", "Other"]
+    },
+    {
+      "id": "PP02",
+      "section": "Business Processes",
+      "question": "How do you currently handle customer support?",
+      "questionType": "single_select",
+      "answer": "Phone + Email",
+      "availableOptions": ["Phone only", "Email only", "Phone + Email", "Chat widget", "Social media DMs", "Combination of multiple channels"]
+    },
+    {
+      "id": "PP03",
+      "section": "Business Processes",
+      "question": "What is your biggest operational challenge?",
+      "questionType": "single_select",
+      "answer": "Time management",
+      "availableOptions": ["Finding/retaining talent", "Scaling operations", "Customer acquisition", "Cash flow management", "Time management", "Competition", "Other"]
+    },
+    {
+      "id": "PP04",
+      "section": "Business Processes",
+      "question": "How repetitive are your daily business tasks?",
+      "questionType": "scale",
+      "answer": 4,
+      "scaleLabels": { "1": "Mostly unique work", "5": "Highly repetitive" }
+    },
+    {
+      "id": "PP05",
+      "section": "Business Processes",
+      "question": "How much time does your team spend on manual data entry weekly?",
+      "questionType": "scale",
+      "answer": 3,
+      "scaleLabels": { "1": "Minimal", "5": "Significant" }
+    },
+    {
+      "id": "PP06",
+      "section": "Business Processes",
+      "question": "What are your top 3 business challenges that you believe technology might help solve?",
+      "questionType": "free_text",
+      "answer": "1. Client reporting takes 8-10 hours per month per client - we manually pull data from multiple platforms and compile into presentations. 2. Initial lead response is slow - often 24+ hours because we're in meetings. 3. Keeping track of deliverables and deadlines across all clients is chaotic."
+    },
+    {
+      "id": "PP07",
+      "section": "Business Processes",
+      "question": "Please describe a typical workflow or business process that feels inefficient.",
+      "questionType": "free_text",
+      "answer": "Monthly client reporting: We pull data from Google Analytics, HubSpot, LinkedIn Ads, and Google Ads. A team member manually screenshots charts, exports CSVs, compiles everything into a PowerPoint, and writes commentary. This takes 2-3 hours per client, and we have 15 clients. That's 30-45 hours of work that feels automatable."
+    },
+    {
+      "id": "BR01",
+      "section": "Budget & Resources",
+      "question": "What is your monthly budget for software/technology tools?",
+      "questionType": "single_select",
+      "answer": "$500-$1,000",
+      "availableOptions": ["Under $100", "$100-$500", "$500-$1,000", "$1,000-$2,500", "$2,500+", "Don't know", "Don't have one"]
+    },
+    {
+      "id": "BR02",
+      "section": "Budget & Resources",
+      "question": "Do you have IT support available?",
+      "questionType": "single_select",
+      "answer": "Tech-savvy employee handles it",
+      "availableOptions": ["In-house IT staff", "Contracted IT support", "Tech-savvy employee handles it", "No dedicated IT support"]
+    },
+    {
+      "id": "BR03",
+      "section": "Budget & Resources",
+      "question": "How have you typically implemented new technology in the past?",
+      "questionType": "single_select",
+      "answer": "Vendor-provided training",
+      "availableOptions": ["Self-service/DIY", "Hire consultants", "Vendor-provided training", "Avoid new technology", "Never had to"]
+    },
+    {
+      "id": "BR04",
+      "section": "Budget & Resources",
+      "question": "Are you actively budgeting for AI implementation initiatives over the next 12 months?",
+      "questionType": "free_text",
+      "answer": "Yes, we've set aside approximately $10,000 for AI tools and implementation in 2025. Open to spending more if ROI is clear."
+    },
+    {
+      "id": "AK01",
+      "section": "AI Knowledge",
+      "question": "How familiar are you and your team with AI tools like ChatGPT, Claude, AI Agents, Automation Software, etc.?",
+      "questionType": "single_select",
+      "answer": "Use occasionally",
+      "availableOptions": ["Never used them", "Experimented briefly", "Use occasionally", "Use regularly", "Power user"]
+    },
+    {
+      "id": "AK02",
+      "section": "AI Knowledge",
+      "question": "Have you or your team used any AI-powered tools?",
+      "questionType": "multi_select",
+      "answer": ["ChatGPT/Claude", "AI writing assistants"],
+      "availableOptions": ["ChatGPT/Claude", "AI writing assistants", "AI image generators", "Chatbots", "Automated scheduling", "Predictive analytics", "None", "Other"]
+    },
+    {
+      "id": "AK03",
+      "section": "AI Knowledge",
+      "question": "What is your primary goal for adopting AI?",
+      "questionType": "single_select",
+      "answer": "Save time",
+      "availableOptions": ["Reduce costs", "Save time", "Improve customer experience", "Scale operations", "Stay competitive", "Explore possibilities"]
+    },
+    {
+      "id": "AK04",
+      "section": "AI Knowledge",
+      "question": "What concerns do you have about adopting AI?",
+      "questionType": "multi_select",
+      "answer": ["Complexity", "Reliability"],
+      "availableOptions": ["Cost", "Complexity", "Data privacy", "Job displacement", "Reliability", "Customer perception", "None", "Other"]
+    },
+    {
+      "id": "AK05",
+      "section": "AI Knowledge",
+      "question": "How motivated are you as a business owner to implement AI?",
+      "questionType": "scale",
+      "answer": 4,
+      "scaleLabels": { "1": "Very hesitant", "5": "Very eager" }
+    },
+    {
+      "id": "AK06",
+      "section": "AI Knowledge",
+      "question": "How supportive/receptive do you believe your staff will be to AI adoption?",
+      "questionType": "scale",
+      "answer": 3,
+      "scaleLabels": { "1": "Resistant", "5": "Enthusiastic" }
+    },
+    {
+      "id": "DC01",
+      "section": "Data & Compliance",
+      "question": "How would you describe the quality of your business data?",
+      "questionType": "single_select",
+      "answer": "Somewhat organized",
+      "availableOptions": ["Scattered/inconsistent", "Somewhat organized", "Well-organized", "Highly structured and clean", "Don't know"]
+    },
+    {
+      "id": "DC02",
+      "section": "Data & Compliance",
+      "question": "Does your business handle sensitive customer data?",
+      "questionType": "single_select",
+      "answer": "Yes - standard PII",
+      "availableOptions": ["Yes - highly regulated (HIPAA, PCI, etc.)", "Yes - standard PII", "Minimal customer data", "No sensitive data", "Not Sure"]
+    },
+    {
+      "id": "DC03",
+      "section": "Data & Compliance",
+      "question": "Are you subject to industry-specific regulations?",
+      "questionType": "single_select",
+      "answer": "Minimal regulations",
+      "availableOptions": ["Yes - strict compliance requirements", "Yes - moderate requirements", "Minimal regulations", "Unsure"]
+    },
+    {
+      "id": "DC04",
+      "section": "Data & Compliance",
+      "question": "Do you have a data backup system in place?",
+      "questionType": "single_select",
+      "answer": "Yes - automated cloud backup",
+      "availableOptions": ["Yes - automated cloud backup", "Yes - manual backups", "Partial backup system", "No backup system"]
+    },
+    {
+      "id": "GT01",
+      "section": "Goals & Timeline",
+      "question": "When would you ideally like to start implementing AI tools?",
+      "questionType": "single_select",
+      "answer": "Within 3 months",
+      "availableOptions": ["Immediately", "Within 3 months", "Within 6 months", "Within 1 year", "No specific timeline"]
+    },
+    {
+      "id": "GT02",
+      "section": "Goals & Timeline",
+      "question": "What level of involvement do you want in the implementation process?",
+      "questionType": "single_select",
+      "answer": "Guided with support",
+      "availableOptions": ["Hands-on (DIY)", "Guided with support", "Fully managed by experts", "Minimal involvement"]
+    },
+    {
+      "id": "GT03",
+      "section": "Goals & Timeline",
+      "question": "How would you measure AI implementation success?",
+      "questionType": "multi_select",
+      "answer": ["Time saved", "Employee productivity"],
+      "availableOptions": ["Time saved", "Cost reduction", "Revenue increase", "Customer satisfaction", "Employee productivity", "All of the above"]
+    },
+    {
+      "id": "GT04",
+      "section": "Goals & Timeline",
+      "question": "What does successful AI adoption look like for your business in 1 year?",
+      "questionType": "free_text",
+      "answer": "In one year, I want AI handling at least 50% of our client reporting work. Initial email inquiries should get instant responses. Our team should be able to generate proposal first drafts in minutes instead of hours. And ideally, we'd have some predictive insights about which clients might churn or which leads are most likely to convert."
+    },
+    {
+      "id": "GT05",
+      "section": "Goals & Timeline",
+      "question": "Is there anything else about your business situation we should know?",
+      "questionType": "free_text",
+      "answer": "We're a small team but growing fast. Everyone wears multiple hats. I'm concerned about adding complexity but equally concerned about burning out my team with manual work. We've tried a few automations with Zapier but nothing sophisticated. Very open to learning but need hand-holding through the process."
+    }
+  ],
+
+  "rawResponses": {
+    "BP01": "Professional Services",
+    "BP02": "6-15",
+    "BP03": "3-5 years",
+    "BP04": "$500K-$1M",
+    "BP05": "We provide marketing consulting services to mid-sized B2B companies. Our core offerings include brand strategy, content marketing, and demand generation campaigns. We work primarily on retainer with 12-15 active clients at any given time.",
+    "BP06": "6 months: Expand client base by 20% and streamline client onboarding. 12 months: Launch a new productized service offering for smaller clients. 18 months: Grow team to 12 people and establish thought leadership in our niche.",
+    "TI01": "Moderate (some cloud tools)",
+    "TI02": "Yes - somewhat",
+    "TI03": ["CRM", "Accounting Software", "Project Management", "Marketing Automation"],
+    "TI04": "CRM system",
+    "TI05": 4,
+    "TI06": "HubSpot doesn't integrate well with our project management tool (Monday.com), so we're constantly copying information between systems. Also, our proposal process is entirely manual - each one takes 3-4 hours to customize.",
+    "PP01": ["Customer inquiries", "Report generation", "Email management"],
+    "PP02": "Phone + Email",
+    "PP03": "Time management",
+    "PP04": 4,
+    "PP05": 3,
+    "PP06": "1. Client reporting takes 8-10 hours per month per client - we manually pull data from multiple platforms and compile into presentations. 2. Initial lead response is slow - often 24+ hours because we're in meetings. 3. Keeping track of deliverables and deadlines across all clients is chaotic.",
+    "PP07": "Monthly client reporting: We pull data from Google Analytics, HubSpot, LinkedIn Ads, and Google Ads. A team member manually screenshots charts, exports CSVs, compiles everything into a PowerPoint, and writes commentary. This takes 2-3 hours per client, and we have 15 clients. That's 30-45 hours of work that feels automatable.",
+    "BR01": "$500-$1,000",
+    "BR02": "Tech-savvy employee handles it",
+    "BR03": "Vendor-provided training",
+    "BR04": "Yes, we've set aside approximately $10,000 for AI tools and implementation in 2025. Open to spending more if ROI is clear.",
+    "AK01": "Use occasionally",
+    "AK02": ["ChatGPT/Claude", "AI writing assistants"],
+    "AK03": "Save time",
+    "AK04": ["Complexity", "Reliability"],
+    "AK05": 4,
+    "AK06": 3,
+    "DC01": "Somewhat organized",
+    "DC02": "Yes - standard PII",
+    "DC03": "Minimal regulations",
+    "DC04": "Yes - automated cloud backup",
+    "DC05": null,
+    "GT01": "Within 3 months",
+    "GT02": "Guided with support",
+    "GT03": ["Time saved", "Employee productivity"],
+    "GT04": "In one year, I want AI handling at least 50% of our client reporting work. Initial email inquiries should get instant responses. Our team should be able to generate proposal first drafts in minutes instead of hours. And ideally, we'd have some predictive insights about which clients might churn or which leads are most likely to convert.",
+    "GT05": "We're a small team but growing fast. Everyone wears multiple hats. I'm concerned about adding complexity but equally concerned about burning out my team with manual work. We've tried a few automations with Zapier but nothing sophisticated. Very open to learning but need hand-holding through the process."
+  }
+}
