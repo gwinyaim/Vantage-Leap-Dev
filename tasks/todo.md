@@ -28,16 +28,17 @@ Reimplementing the AI Readiness Assessment based on PRD v2.0, scoring-engine.js,
   - [x] `calculateAssessmentScore()` main function
   - [x] `getReadinessLevel()` function
   - [x] `buildN8NPayload()` function
-- [ ] Commit & Push Stage 2
+- [x] Commit & Push Stage 2
 
 ---
 
 ## Stage 3: Questions Data
-- [ ] Create `assessmentQuestions.ts`
-  - [ ] All 33 questions with proper typing
-  - [ ] Section definitions (7 sections)
-  - [ ] Section order and flow
-  - [ ] Conditional question logic (DC-05)
+- [x] Create `assessmentQuestions.ts`
+  - [x] All 38 questions with proper typing
+  - [x] Section definitions (7 sections)
+  - [x] Section order and flow
+  - [x] Conditional question logic (DC-05)
+  - [x] Helper functions (getQuestionsForSection, getAllQuestionsInOrder, shouldShowQuestion)
 - [ ] Commit & Push Stage 3
 
 ---
@@ -128,3 +129,10 @@ Reimplementing the AI Readiness Assessment based on PRD v2.0, scoring-engine.js,
 - 6 cross-dimensional validation flags with adjustments
 - Main functions: calculateAssessmentScore(), getReadinessLevel(), buildN8NPayload()
 - Imports types from assessmentTypes.ts
+
+### Stage 3 Review
+- Created `assessmentQuestions.ts` with all 38 questions
+- 7 sections: BP (6), TI (6), PP (7), BR (4), AK (6), DC (5), GT (4)
+- Question types: single_select, multi_select, dropdown, scale, free_text
+- Conditional logic for DC05 (shows when DC02 indicates regulated industry)
+- Helper functions: getQuestionsForSection(), getAllQuestionsInOrder(), shouldShowQuestion(), getTotalQuestionCount(), getSectionById()
